@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Kim - Computer Science Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Alex Kim</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Alex Kim</span></h1>
+                <h2 class="hero-subtitle">Computer Science &  Applied Math Student</h2>
+                <p class="hero-description">
+                    Passionate about software development, machine learning, and creating innovative solutions. 
+                    Currently pursuing my degree while gaining hands-on experience through internships and personal projects.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img src="assets/profile.png" alt="me" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer Intern</h3>
+                        <h4>Esri</h4>
+                        <span class="timeline-date">May 2025 – Aug 2025</span>
+                        <p>
+                            Contributed to ArcGIS Enterprise engineering in Redlands, CA, focusing on test automation,
+                            CI/CD reliability, and cloud deployment tooling.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Academic Intern</h3>
+                        <h4>UC Berkeley EECS Department</h4>
+                        <span class="timeline-date">Jan 2025 – May 2025</span>
+                        <p>
+                            Academic Intern for CS 61A: Structure and Interpretation of Computer Programs (Python), Berkeley, CA.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Intern → Developer Analyst</h3>
+                        <h4>AHV Communities</h4>
+                        <span class="timeline-date">May 2024 – May 2025</span>
+                        <p>
+                            Built and evolved a full‑stack financial dashboard for a nationwide real‑estate developer; remote (intern → analyst).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>NASA</h4>
+                        <span class="timeline-date">May 2022 – Aug 2022</span>
+                        <p>
+                            Austin, TX — Computer vision research focused on mosquito larvae classification and dataset tooling.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Proply</h3>
+                        <p>
+                            Co-founding a startup that revolutionizes property management bookkeeping through an agentic AI layer. 
+                            The platform automates data entry, email monitoring, and phone call processing to streamline operations 
+                            for property managers and assist bookkeepers. Currently in active development with 5 beta clients awaiting the product launch.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">CrewAI</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">Serper</span>
+                            <span class="tech-tag">Playwright</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://tryproply.ai/" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Waitlist Page</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-map-location-dot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>ArcGIS Fire Response App</h3>
+                        <p>
+                            A web application designed to enhance disaster preparedness drills for Burn Centers and County EMS agencies. 
+                            The system matches and scores patient-to-hospital routes based on route times, hospital capabilities, 
+                            and patient criticality levels. Features include hospital availability simulation, 
+                            routing analysis, and automated report generation with improvement directives.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">ArcGIS</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">OpenAI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/kathirgounder/BurnSurgeOperations" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://devpost.com/software/burn-surge-ops?_gl=1*tieo09*_gcl_au*NzI3NDQ0ODY2LjE3NTM1ODI1MzM.*_ga*NTMxMTYxMjY0LjE3NTM1ODI1MzM.*_ga_0YHJK3Y10M*czE3NTc0ODY1OTkkbzQkZzEkdDE3NTc0ODY2MTckajQyJGwwJGgw" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Devpost</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Oracle NetSuite RAG</h3>
+                        <p>
+                            Developed a RAG system for an AI chatbot for Oracle NetSuite (Contract Development) allowing users to generate custom XML workflows from a plain english prompt.
+                            Processed XML data using python to extract relevant schema’s and syntax for vectorization.
+                            Built a vector database using Pinecone to enable efficient context retrieval and integrated Langchain for context-aware response generation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Pincecone</span>
+                            <span class="tech-tag">Langchain</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Syllo</h3>
+                        <p>
+                            A mobile app aggregating Cal student information into one place, allowing students to easily understand their academic standing (current grades, graduation status, etc.). Pulled real-time data from Canvas & Gradescope, built frontend with React Native, backend with FastAPI & Firebase, used OpenAI API to build AI agent to process student information and calculate/estimate current grades.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/needarling1/gradient" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>IBVault</h3>
+                        <p>
+                            IBVault is an investment banking interview prep platform featuring 200+ questions, enhancing the effectiveness of finance interview preparation (Leetcode for Finance). 
+                            Developed frontend with React, backend with Flask and PostgreSQL, used OpenAI API to create question grading AI agent to make answering questions interactive.
+                            Hosted on Render, gathered 50+ users when site was active.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/needarling1/ibvault" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3>Double Major in Computer Science & Applied Math</h3>
+                        <span class="education-date">2023 - 2027</span>
+                    </div>
+                    <h4>University of California, Berkeley</h4>
+                    <p class="education-description">
+                        Pursuing a comprehensive computer science and mathematics curriculum covering algorithms, data structures, 
+                        software engineering, machine learning, artificial intelligence, and circuit design/hardware.
+                    </p>
+                    <div class="education-details">
+                        <div class="gpa">
+                            <strong>GPA:</strong> 3.95/4.0
+                        </div>
+                        <div class="relevant-courses">
+                            <strong>Relevant Coursework:</strong>
+                            <ul>
+                                <li>Data Structures & Algorithms (Java)</li>
+                                <li>Structure of Computer Programs (Python)</li>
+                                <li>Discrete Mathematics</li>
+                                <li>Efficient Algorithms & Intractable Problems</li>
+                                <li>Introduction to Artificial Intelligence</li>
+                                <li>Principles & Techniques of Data Science</li>
+                                <li>Foundations of Data Science</li>
+                                <li>Designing Information Devices & Systems I & II</li>
+                                <li>Microelectronic Devices & Circuits</li>
+                                <li>Abstract Algebra</li>
+                                <li>Abstract Linear Algebra</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alex Kim. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
